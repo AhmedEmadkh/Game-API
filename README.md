@@ -7,10 +7,6 @@ This web application allows users to explore and discover free-to-play games acr
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
