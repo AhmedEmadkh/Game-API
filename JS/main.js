@@ -14,6 +14,7 @@ $(document).ready(function () {
     $(".nav-link").removeClass("active");
     $(this).addClass("active");
   });
+
   // ***************************************************************
   // display the UI section
   let category;
@@ -21,11 +22,19 @@ $(document).ready(function () {
     category = $(e.target).text();
     ui.getData(category);
   });
+
+  // Trigger the getData function with the default category on page load
   $(window).on("load", function () {
-    ui.getData("mmorpg");
+    // Set the default category (you can change this to any category you want)
+    category = "mmorpg";
+    
+    // Call the getData function with the default category
+    ui.getData(category);
   });
+
   // ***************************************************************
   // Hiding games section on clicking
   games.hide();
   // details.hide();
 });
+
